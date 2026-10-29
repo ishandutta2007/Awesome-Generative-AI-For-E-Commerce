@@ -21,7 +21,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-For-E-Commerce/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Generative-AI-For-E-Commerce?style=social&color=white" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-For-E-Commerce/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Generative-AI-For-E-Commerce?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-For-E-Commerce/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Generative-AI-For-E-Commerce?style=social&color=white" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-For-E-Commerce/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-emerald.svg" alt="Maintained" />
@@ -80,7 +80,7 @@ Sorted in descending order by GitHub stargazers count:
 
 ### 🤖 Full-Stack Content & Agent Pipelines
 
-| Repository | Stars | Description | Stack / Backend |
+| Repository | GitHub_Stars | Description | Stack / Backend |
 | :--- | :---: | :--- | :--- |
 | **[nexscope-ai/eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)** | [![Stars](https://img.shields.io/github/stars/nexscope-ai/eCommerce-Skills?style=social&color=white)](https://github.com/nexscope-ai/eCommerce-Skills/stargazers) | Modular AI agent skills for multi-platform e-commerce sellers (Amazon, Shopify, Etsy, TikTok Shop) covering product research, copy generation, and operational automation. | Python / Claude Code / MCP |
 | **[feichanggege/ecommerce-visual-copywriting-skill](https://github.com/feichanggege/ecommerce-visual-copywriting-skill)** | [![Stars](https://img.shields.io/github/stars/feichanggege/ecommerce-visual-copywriting-skill?style=social&color=white)](https://github.com/feichanggege/ecommerce-visual-copywriting-skill/stargazers) | AI visual strategy and copywriting skill for e-commerce main images, Amazon A+ / PDP content, compliance checking, and Midjourney/Flux image prompts. | Markdown / Agent Skills / Prompt Ops |
@@ -89,7 +89,7 @@ Sorted in descending order by GitHub stargazers count:
 
 ### 👗 Virtual Try-On & Garment Adaptation (VTON)
 
-| Repository | Stars | Description | Stack / Backend |
+| Repository | GitHub_Stars | Description | Stack / Backend |
 | :--- | :---: | :--- | :--- |
 | **[levihsu/OOTDiffusion](https://github.com/levihsu/OOTDiffusion)** | [![Stars](https://img.shields.io/github/stars/levihsu/OOTDiffusion?style=social&color=white)](https://github.com/levihsu/OOTDiffusion/stargazers) | Outfitting Fusion based Latent Diffusion for controllable virtual try-on, supporting both half-body and full-body model generation for online fashion retail. | PyTorch / Latent Diffusion |
 | **[HumanAIGC/OutfitAnyone](https://github.com/HumanAIGC/OutfitAnyone)** | [![Stars](https://img.shields.io/github/stars/HumanAIGC/OutfitAnyone/stargazers) | Ultra-high quality virtual try-on framework for any clothing style, pose, and body type with zero-shot generalization. | PyTorch / Diffusion Transformer |
@@ -99,7 +99,7 @@ Sorted in descending order by GitHub stargazers count:
 
 ### 🔍 Visual Processing & Merchandising Infrastructure
 
-| Repository | Stars | Description | Stack / Backend |
+| Repository | GitHub_Stars | Description | Stack / Backend |
 | :--- | :---: | :--- | :--- |
 | **[marqo-ai/marqo](https://github.com/marqo-ai/marqo)** | [![Stars](https://img.shields.io/github/stars/marqo-ai/marqo?style=social&color=white)](https://github.com/marqo-ai/marqo/stargazers) | End-to-end multimodal vector search and discovery engine for e-commerce, powering AI visual search, semantic search, and personalized product discovery. | Python / Docker / PyTorch |
 | **[beikeshop/beikeshop](https://github.com/beikeshop/beikeshop)** | [![Stars](https://img.shields.io/github/stars/beikeshop/beikeshop?style=social&color=white)](https://github.com/beikeshop/beikeshop/stargazers) | Multi-language, multi-currency open-source e-commerce system featuring native AI agent integrations and Model Context Protocol (MCP) tool support. | PHP / Laravel / Vue.js |
