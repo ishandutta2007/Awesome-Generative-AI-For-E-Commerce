@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="40%" stop-color="#a855f7" />
+      <stop offset="80%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="25" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 46px;
+        letter-spacing: -0.5px;
+      }
+      .sub-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 19px;
+        fill: #94a3b8;
+      }
+      .badge-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+      .metric-title {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        fill: #38bdf8;
+      }
+      .metric-val {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        fill: #f8fafc;
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1.5deg); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(-1.5deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -100; }
+      }
+      .floating-card-1 {
+        animation: floatSlow 7s ease-in-out infinite;
+      }
+      .floating-card-2 {
+        animation: floatReverse 8s ease-in-out infinite;
+      }
+      .pulsing-orb {
+        animation: pulseGlow 6s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .flow-line {
+        stroke-dasharray: 8 6;
+        animation: dashMove 12s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Geometric Grid Pattern Overlay -->
+  <g opacity="0.07" stroke="#94a3b8" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Dynamic Glowing Ambient Spheres (Behind Content) -->
+  <circle class="pulsing-orb" cx="150" cy="80" r="130" fill="#3b82f6" filter="url(#glow)" opacity="0.25" />
+  <circle class="pulsing-orb" cx="1060" cy="280" r="160" fill="#ec4899" filter="url(#glow)" opacity="0.22" />
+  <circle class="pulsing-orb" cx="600" cy="180" r="100" fill="#8b5cf6" filter="url(#glow)" opacity="0.15" />
+
+  <!-- Animated Data Flow Curves in Background -->
+  <path class="flow-line" d="M 50 320 Q 350 200, 650 280 T 1150 160" fill="none" stroke="url(#textGrad)" stroke-width="2" opacity="0.3" />
+  <path class="flow-line" d="M 80 40 Q 420 180, 800 100 T 1160 220" fill="none" stroke="#06b6d4" stroke-width="1.5" opacity="0.25" style="animation-duration: 16s;" />
+
+  <!-- Right Decorative Floating Tech Cards (Kept to far right to never overlap title/subtitle) -->
+  <g class="floating-card-1" transform="translate(930, 50)">
+    <rect width="210" height="92" rx="14" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="28" cy="28" r="14" fill="#8b5cf6" fill-opacity="0.2" />
+    <path d="M 23 28 L 28 33 L 34 23" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50" y="33" class="metric-title">Virtual Photoshoots</text>
+    <text x="24" y="66" class="metric-val">AI Models &amp; Sets</text>
+  </g>
+
+  <g class="floating-card-2" transform="translate(960, 180)">
+    <rect width="190" height="92" rx="14" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="28" cy="28" r="14" fill="#0ea5e9" fill-opacity="0.2" />
+    <text x="22" y="34" font-size="14" fill="#38bdf8">⚡</text>
+    <text x="48" y="33" class="metric-title">Automated Copy</text>
+    <text x="24" y="66" class="metric-val">10x Conversion</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header, Title, Subtitle, Badges (Crisp, High Contrast, Centered-Left) -->
+  <g transform="translate(80, 52)">
+    <!-- Top Category Pill Tag -->
+    <rect width="254" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="14" cy="15" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="20" class="badge-text" fill="#93c5fd" font-size="12">CURATED ECOSYSTEM DIRECTORY</text>
+
+    <!-- Main Title -->
+    <text x="0" y="90" class="title-text" fill="url(#textGrad)" filter="url(#softGlow)">
+      Awesome Generative AI
+    </text>
+    <text x="0" y="142" class="title-text" fill="#ffffff">
+      For E-Commerce
+    </text>
+
+    <!-- Subtitle / Mission Statement -->
+    <text x="0" y="188" class="sub-text">
+      The definitive landscape of SaaS platforms, AI virtual try-on pipelines,
+    </text>
+    <text x="0" y="215" class="sub-text">
+      automated product photography, and open-source merchandising engines.
+    </text>
+
+    <!-- Feature Tags Row -->
+    <g transform="translate(0, 244)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="170" height="32" rx="16" fill="#1e293b" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="16" y="21" class="badge-text">📸 Virtual Photography</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(182, 0)">
+        <rect width="180" height="32" rx="16" fill="#1e293b" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="16" y="21" class="badge-text">👗 Virtual Try-On (VTON)</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(374, 0)">
+        <rect width="168" height="32" rx="16" fill="#1e293b" stroke="#ec4899" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="16" y="21" class="badge-text">✍️ Automated Listings</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(554, 0)">
+        <rect width="154" height="32" rx="16" fill="#1e293b" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="16" y="21" class="badge-text">🚀 Open-Source AI</text>
+      </g>
+    </g>
+  </g>
+</svg>
