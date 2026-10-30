@@ -69,6 +69,7 @@ The table below catalogs premier commercial SaaS applications for e-commerce con
 | **[Flair.ai](https://flair.ai/)** | Seed-stage ($4.35M Raised) | $10/mo (billed monthly for Pro tier) | Free-forever tier (100 lifetime image generation credits, basic asset resolution) | Virtual photoshoots with real-time drag-and-drop scene staging, high-resolution rendering, on-model fashion imagery, and product asset remixing. |
 | **[Hypotenuse AI](https://www.hypotenuse.ai/)** | Y Combinator Backed (~$3M ARR) | $29/mo (billed monthly, or $24/mo billed annually for Individual) | 7-day free trial (capped at ~3,000 words or product descriptions, no card required) | Catalog-scale bulk product descriptions, attribute enrichment, multi-language translation across 40+ languages, and direct Shopify/PIM sync. |
 | **[Pebblely](https://pebblely.com/)** | Bootstrapped / Angel Backed | $9/mo (billed monthly, or $7.50/mo billed annually for Lite) | 40 free generation credits upon registration (no card required) | Instant studio-grade background replacement without requiring prior manual masking, multi-size aspect ratio generation, and batch export. |
+| **[Photoshoot.app](https://photoshoot.app/?utm_source=github_awesome_generative_ai_for_e_commerce&utm_medium=backlink&utm_campaign=202609_w7_backlinks)** | Bootstrapped / Indie | Freemium (credit-based generation) | Free trial credits on sign-up | AI commercial photography studio for e-commerce: turns a single product photo into studio-grade listing images, lifestyle scenes, model try-on shots, and ad creatives. |
 
 ---
 
